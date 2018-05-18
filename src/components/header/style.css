@@ -1,0 +1,63 @@
+.header-wrap{
+    background-color: #393B3D;
+}
+.header-wrap .header {
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+}
+.header-wrap .header .logo {
+    float: left;
+    margin: 0 20px;
+}
+.header-wrap .header .logo>a {
+    display: block;
+    width: 246px;
+    height: 60px;
+    background: url('./img/PClogo.png') no-repeat center center;
+    background-size: 100%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.nav {
+    line-height: 60px;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 0;
+    left: 266px;
+}
+.header-wrap .header .nav .nav-list>li {
+    float: left;
+    margin-left: 40px;
+    position: relative;
+}
+.header-wrap .header .nav .nav-list>li>a {
+    opacity: 0.5;
+    color: #fff;
+    display: inline-block;
+}
+.header-wrap .header .nav .nav-list>li>a.active {
+    opacity: 1;
+}
+
+.header-wrap .header .nav-right {
+    float: right;
+}
+.header-wrap .header .nav-right .nav-logout {
+    line-height: 60px;
+    float: right;
+    padding-right: 20px;
+}
+.header-wrap .header .nav-right .nav-logout a {
+    color: #fff;
+    font-size: 1.4em;
+    width: 70px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.header-wrap .header .nav-right .nav-logout a:first-child>img {
+    width: 20px;
+}

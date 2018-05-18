@@ -1,0 +1,22 @@
+.slider {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+}
+.slider ul {
+    height: 420px;
+    position: relative;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+.slider .slider-item{
+    display: inline-block;
+    height: auto;
+}
+.slider .slider-item img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
