@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './style.css'
 
 export default class Header extends React.Component {
@@ -54,7 +53,7 @@ export default class Header extends React.Component {
                 <header className="header-wrap">
                     <div className="header clearfix">
                         <div className="logo">
-                            <a></a>
+                            <a>get</a>
                         </div>
                         <nav className="nav">
                             <ul className="nav-list">

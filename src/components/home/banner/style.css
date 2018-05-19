@@ -1,5 +1,5 @@
 .slider {
-    height: 100%;
+    height: 574px;
     margin: 0 auto;
     position: relative;
     width: 1200px;
@@ -19,4 +19,52 @@
     display: block;
     height: auto;
     width: 100%;
+}
+
+
+.pika-thumbs{
+    position: absolute;
+    bottom: 0;
+    width: 1202px;
+}
+.pika-thumbs>li {
+    overflow: hidden;
+    position: relative;
+    width: 198.3px;
+    height: 150px;
+    float: left;
+    list-style-type: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    margin-left: -2px;
+}
+.pika-thumbs>li .clip {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #000;
+    overflow: hidden;
+}
+.pika-thumbs>li .clip>img {
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    min-height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: perspective(1px) translate(-50%, -50%);
+    -webkit-transform: perspective(1px) translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: perspective(1px) translate(-50%, -50%);
+    display: block;
+    opacity: 0.4;
+}
+.pika-thumbs>li .clip>img:hover {
+    opacity: 1;
+}
+.pika-thumbs>li.active .clip>img {
+    opacity: 1;
 }
