@@ -10,10 +10,10 @@ export default class Banners extends Component {
         this.getBanner = this.getBanner.bind(this)
     }
     getBanner() {
-        // axios.get('/index/getCarousel').then(data => {
-        //     console.log(data)
-        // })
-        fetch('/index/getCarousel').then()
+        axios.get('/getCarousel').then(data => {
+            console.log(data)
+        })
+        // fetch('/index/getCarousel').then()
     }
     componentWillMount() {
         this.getBanner();
